@@ -1,0 +1,19 @@
+# Paths to datasets and outputs
+data:
+  synthetic:
+    asia:            "data/synthetic/asia"
+    alarm:           "data/synthetic/alarm"
+    sachs:          "data/synthetic/sachs"
+    child:          "data/synthetic/child"
+    insurance:      "data/synthetic/insurance"
+    variants:        ["base", "noise", "missing"]
+  real:
+    raw:             "data/real/raw"
+    processed:       "data/real/processed"
+
+graphs: 
+  ground_truth: "src/ground_truth_graphs"
+
+output:
+  models: "models/saved"
+  results: "results"

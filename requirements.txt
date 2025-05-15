@@ -1,0 +1,20 @@
+numpy < 2
+bnlearn
+pandas
+networkx
+xgboost
+torch
+torch-geometric
+scikit-learn < 1.6
+jupyter
+causal-learn
+openpyxl
+seaborn
+pyyaml
+pytest
+dowhy
+optuna
+shap
+notears
+bioservices
+mygene

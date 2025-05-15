@@ -1,0 +1,228 @@
+GAT_real:
+  diet_D:
+    dropout: 0.0
+    heads: 1
+    hidden_dim: 64
+    lr: 0.1
+    num_layers: 1
+  diet_W:
+    dropout: 0.3
+    heads: 8
+    hidden_dim: 16
+    lr: 0.001
+    num_layers: 2
+  genotype:
+    dropout: 0.0
+    heads: 4
+    hidden_dim: 32
+    lr: 0.001
+    num_layers: 2
+  genotype_D:
+    dropout: 0.0
+    heads: 1
+    hidden_dim: 16
+    lr: 0.001
+    num_layers: 3
+  metab:
+    dropout: 0.0
+    heads: 1
+    hidden_dim: 32
+    lr: 0.1
+    num_layers: 3
+  sex_D:
+    dropout: 0.3
+    heads: 8
+    hidden_dim: 16
+    lr: 0.001
+    num_layers: 2
+  sex_W:
+    dropout: 0.0
+    heads: 1
+    hidden_dim: 16
+    lr: 0.001
+    num_layers: 3
+gat:
+  alarm:
+    dropout: 0.2
+    embedding_dim: 32
+    hidden_dim: 32
+    lr: 0.001
+    num_layers: 1
+  asia:
+    dropout: 0.0
+    embedding_dim: 32
+    hidden_dim: 64
+    lr: 0.01
+    num_layers: 2
+  child:
+    dropout: 0.3
+    embedding_dim: 32
+    hidden_dim: 16
+    lr: 0.001
+    num_layers: 2
+gcn:
+  alarm:
+    dropout: 0.3
+    embedding_dim: 32
+    hidden_dim: 16
+    lr: 0.001
+    num_layers: 2
+  asia:
+    dropout: 0.3
+    embedding_dim: 16
+    hidden_dim: 32
+    lr: 0.001
+    num_layers: 3
+  child:
+    dropout: 0.4753571532049581
+    embedding_dim: 22
+    hidden_dim: 51
+    lr: 0.0013292918943162175
+    num_layers: 1
+  sachs:
+    dropout: 0.48495492608099716
+    embedding_dim: 20
+    hidden_dim: 110
+    lr: 0.00011527987128232407
+    num_layers: 1
+hierarchical_xgb:
+  alarm:
+    lr: 0.01
+    max_depth: 5
+    n_estimators: 50
+  asia:
+    lr: 0.01
+    max_depth: 5
+    n_estimators: 200
+mlp:
+  alarm:
+    dropout: 0.2
+    hidden_dim: 64
+    lr: 0.01
+    num_layers: 1
+  asia:
+    dropout: 0.3
+    hidden_dim: 16
+    lr: 0.001
+    num_layers: 3
+  child:
+    dropout: 0.35284175950550883
+    hidden_dim: 29
+    lr: 0.003798630521829507
+    num_layers: 1
+  custom:
+    dropout: 0.060423217815131436
+    hidden_dim: 46
+    lr: 0.03964986177224447
+    num_layers: 2
+  insurance:
+    dropout: 0.43044813588999825
+    hidden_dim: 47
+    lr: 0.014930579497041173
+    num_layers: 2
+  sachs:
+    dropout: 0.202867259200666
+    hidden_dim: 58
+    lr: 0.0012399664763564694
+    num_layers: 2
+  survey:
+    dropout: 0.023225206359998862
+    hidden_dim: 84
+    lr: 0.005987474910461402
+    num_layers: 1
+transformer:
+  alarm:
+    dropout: 0.1
+    embedding_dim: 16
+    hidden_dim: 32
+    lr: 0.001
+    num_layers: 2
+  asia:
+    dropout: 0.1
+    embedding_dim: 8
+    hidden_dim: 16
+    lr: 0.0001
+    num_layers: 3
+  child:
+    dropout: 0.3
+    embedding_dim: 32
+    hidden_dim: 16
+    lr: 0.001
+    num_layers: 2
+transformer_gnn:
+  asia:
+    dropout: 0.21278285856032195
+    embedding_dim: 15
+    heads: 7
+    hidden_dim: 87
+    lr: 0.07018733800068362
+    num_layers: 1
+xgb:
+  alarm:
+    lr: 0.01
+    max_depth: 5
+    n_estimators: 50
+  asia:
+    lr: 0.01
+    max_depth: 5
+    n_estimators: 200
+  cancer:
+    lr: 0.0013292918943162175
+    max_depth: 8
+    n_estimators: 478
+  child:
+    lr: 0.07695402953724376
+    max_depth: 3
+    n_estimators: 77
+  custom:
+    lr: 0.03142880890840111
+    max_depth: 4
+    n_estimators: 145
+  custom_20:
+    lr: 0.013445039435943213
+    max_depth: 3
+    n_estimators: 228
+  custom_5:
+    lr: 0.0006975023506704911
+    max_depth: 6
+    n_estimators: 424
+  diet_D:
+    lr: 0.001
+    max_depth: 3
+    n_estimators: 500
+  diet_W:
+    lr: 0.01
+    max_depth: 5
+    n_estimators: 200
+  earthquake:
+    lr: 0.03142880890840111
+    max_depth: 4
+    n_estimators: 145
+  genotype:
+    lr: 0.1
+    max_depth: 10
+    n_estimators: 500
+  insurance:
+    lr: 0.0010984439947088014
+    max_depth: 3
+    n_estimators: 330
+  metab:
+    lr: 0.0001
+    max_depth: 10
+    n_estimators: 200
+  sachs:
+    lr: 0.004600363355391374
+    max_depth: 3
+    n_estimators: 361
+  sex_D:
+    lr: 0.1
+    max_depth: 10
+    n_estimators: 500
+  sex_W:
+    lr: 0.0001
+    max_depth: 10
+    n_estimators: 200
+  survey:
+    lr: 0.0011182898883480025
+    max_depth: 3
+    n_estimators: 83
